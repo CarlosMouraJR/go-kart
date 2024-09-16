@@ -1,8 +1,6 @@
 __pycache__/
-.streamlit
 .venv
 .vscode
 .DS*
 
 comments.py
-# *.xlsx
