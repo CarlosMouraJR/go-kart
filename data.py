@@ -4,7 +4,7 @@ import streamlit as st
 from datetime import datetime
 
 
-# @st.cache_data
+@st.cache_data
 def get_data():
   try:
     df = st.session_state["df_kart"]
