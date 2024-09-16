@@ -4,7 +4,6 @@ import streamlit as st
 from data import get_data
 from config import config_page
 from helper import build_card_stats_content, set_columns_view
-from season_stats import build_stats
 import plotly.express as px
 
 

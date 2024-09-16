@@ -1,4 +1,3 @@
-import numpy as np
 import plotly.graph_objects as go
 
 from helper import add_extra_point, build_card_stats_content, points_value, set_columns_view, points_explanation
