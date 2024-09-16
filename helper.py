@@ -44,9 +44,9 @@ def points_explanation():
   '''
 
 def set_columns_view(st):
-  row1 = st.columns(3)
+  row1 = st.columns(2)
 
-  return [col.container(height=200) for col in row1]
+  return [col.container(height=300) for col in row1]
 
 def build_card_stats_content(st, text, value, pilot=None):
   st.write(text)
