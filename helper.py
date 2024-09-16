@@ -44,7 +44,7 @@ def points_explanation():
   '''
 
 def set_columns_view(st):
-  row1 = st.columns(2)
+  row1 = st.columns(3)
 
   return [col.container(height=300) for col in row1]
 
