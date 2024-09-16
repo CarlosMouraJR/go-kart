@@ -1,6 +1,5 @@
 def config_page(st):
   st.set_page_config(
-    # layout="wide",
     page_title="Kart Statics"
   )
 
